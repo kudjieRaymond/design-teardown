@@ -44,3 +44,68 @@ li{
 	border:1px solid #491a1a;
 	color:#fff;
 }
+.main-section{
+	background-color: #ce4040;
+	height: 700px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 4px solid white;
+}
+.alert{
+	position: absolute;
+	left: 0;
+	margin-left: 37%;
+	background-color: #491a1a;
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+	padding: 5px;
+}
+.latest-articles{
+		border: 3px solid white;
+		width: 50%;
+		height: 50%;
+}
+.one,.four{
+	background-color: #b13125;
+}
+.cards-section{
+	background-color: gray;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+}
+
+.cards{
+	border: 3px solid white;
+	width: 33.33%;
+}
+.wrike-section{
+	height: 600px;
+	background-color: #d8d8d8;
+	display: flex;
+	flex-direction: row;
+}
+.left-container{
+	border: 3px solid white;
+	width: 35%;
+}
+.right-container{
+	border: 3px solid white;
+	width: 65%;
+	background-color: #666565;
+	border-radius: 10px;
+}
+.wrike{
+	height: 300px;
+	width: 300px;
+	background-color: #666565;
+	border-radius: 10px;
+	margin:0 auto;
+	margin-top: 40px;
+}
+.coming-up{
+	height: 700px;
+	background-color:#808080; 
+}
