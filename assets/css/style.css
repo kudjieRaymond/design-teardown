@@ -1,8 +1,4 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
+
 body {
 	font-family: "Hind", sans-serif;
 	font-size: 18px;
@@ -22,7 +18,7 @@ nav ul li {
 	background-color: #d8d8d8;
 	height: 160px;
 	margin: 2px;
-	border: 1 px solid black;
+	border: 1px solid black;
 }
 nav ul li:first-child {
 	flex-grow: 1.7;
