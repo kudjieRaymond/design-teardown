@@ -1,0 +1,162 @@
+
+body {
+	font-family: "Hind", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+header {
+	height: 160px;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+nav ul li {
+	background-color: #d8d8d8;
+	height: 160px;
+	margin: 2px;
+	border: 1px solid black;
+}
+nav ul li:first-child {
+	flex-grow: 1.7;
+}
+
+nav ul li {
+	list-style: none;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav-btn {
+	width: 80%;
+	height: 80%;
+	background-color: #808080;
+	border: 1px solid #808080;
+	color: #fff;
+}
+.topics {
+	width: 60%;
+	height: 30%;
+	background-color: #808080;
+	border: 1px solid #808080;
+	color: #fff;
+}
+.main-section {
+	background-color: #d8d8d8;
+	height: 700px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 4px solid white;
+}
+.alert {
+	position: absolute;
+	left: 0;
+	margin-left: 40%;
+	background-color: #464343;
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+	padding: 5px;
+	border: 1px solid #fff;
+}
+.latest-articles {
+	border: 3px solid white;
+	width: 50%;
+	height: 50%;
+}
+.one,
+.four {
+	background-color: #808080;
+}
+.cards-section {
+	background-color: gray;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+}
+
+.cards {
+	border: 3px solid white;
+	width: 33.33%;
+}
+.wrike-section {
+	height: 600px;
+	background-color: #d8d8d8;
+	display: flex;
+	flex-direction: row;
+}
+.left-container {
+	border: 3px solid white;
+	width: 35%;
+}
+.right-container {
+	border: 3px solid white;
+	width: 65%;
+	background-color: #666565;
+	border-radius: 10px;
+	text-align: center;
+}
+.wrike {
+	height: 300px;
+	width: 300px;
+	background-color: #666565;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.coming-up {
+	height: 500px;
+	background-color: #808080;
+	text-align: center;
+}
+.week-person {
+	background-color: #d8d8d8;
+	height: 300px;
+	text-align: center;
+}
+.com-section {
+	background-color: #d8d8d8;
+	height: 900px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 3px solid white;
+}
+.com {
+	text-align: center;
+	border: 3px solid white;
+	width: 50%;
+	height: 33.33%;
+}
+.design-system {
+	background-color: #808080;
+	height: 300px;
+	text-align: center;
+}
+.bg-light {
+	background-color: #d8d8d8;
+}
+footer {
+	height: 300px;
+	background-color: #d8d8d8;
+	padding: 0 150px;
+	width: 90%;
+	margin: 0 auto;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.add-topics {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.topic {
+	margin: 20px;
+}
